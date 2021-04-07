@@ -1,0 +1,92 @@
+
+.header{
+    display: flex;
+   flex-direction:  column;
+   flex-wrap: wrap;
+    background-color: #80FFDD;
+}
+.games{
+    background-color: #902ADD;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-right:20px;
+    
+}
+.games a{
+    margin-left:40px;
+}
+.item{
+    position: relative;
+
+}
+.item p{
+    position: absolute;
+    top:50%;
+    left:50%;
+    background-color: darkgoldenrod;
+    color:darkcyan;
+    transform:translate(-50%,-50%);
+    opacity: 15%;
+}
+.item:hover p{
+    opacity: 1;
+}
+.item:hover img{
+    opacity: 25%;
+}
+.games img{
+    border: 2px solid;
+    border-radius: 50px;
+    width:300px;
+    height:300px;
+    margin-top:50px ;
+    padding: 30px;
+}
+.footer{
+    background-color: #E49460;
+    display: flex;
+    justify-content: flex-end;
+   
+}
+.footer img{
+    height: 100px;
+    border:5px;
+    margin:20px;
+}
+.footer:hover img{
+    opacity: 25%;
+}
+p{
+    font-family: 'Franklin Gothic Medium';
+    font-size:25px;
+    color:black;
+}
+.main1{
+    background-color: aqua;
+    display:flex;
+   
+    border: solid;
+  
+}
+.main1 *{
+    border:solid;
+}
+h1 *{
+    color:blueviolet;
+   
+}
+.sub{
+    margin-left: 1500px;
+    margin-top: 20px;
+    color:red;
+    padding:10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+a:link{
+    color:black
+}
+a:visited{
+    color:brown
+}
